@@ -1,0 +1,108 @@
+//FLEX FORM SECTIONS
+
+.form-container,
+.form-info-section-container,
+.button-container,
+.form-function-container {
+    display: flex;  
+}
+
+.form-title,
+.form-label,
+.form-button, 
+.form-deposit-label,
+.form-withdraw-label,
+.form-account-label {
+    display: flex;
+}
+
+.main-container {
+    justify-content: center;
+}
+
+.form-container {
+    flex-direction: column;
+}
+
+.button-container {
+    justify-content: center;
+}
+
+.form-info-section-container {
+    flex-direction: column;
+}
+
+.form-function-container {
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    @include border-radius;
+    box-shadow: 2px 2px 5px ;
+
+}
+
+input::placeholder {
+    font-size: 17px;
+    text-align: center;
+}
+
+input:hover {
+    box-shadow: 2px 2px 5px ;
+    color: purple;
+    background-color: lightcyan;
+}
+
+
+input:focus {
+    box-shadow: 2px 2px 5px ;
+    color: purple;
+    background-color: lightcyan;
+}
+
+
+
+.form-deposit-label,
+.form-withdraw-label,
+.form-account-label  {
+    font-size: 25px;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.form-label {
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.form-button {
+    width: 50%;
+    margin-top: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    justify-content: center;
+    @include border-radius;
+    @include white-border; 
+    font-size: 20px;
+    box-shadow: 2px 2px 5px ;
+
+}
+
+.form-button:hover {
+    transition: .5s ease-in-out,.5s ease-out;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 5px ;
+    color: purple;
+
+}
+
+

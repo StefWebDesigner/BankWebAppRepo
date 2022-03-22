@@ -1,0 +1,53 @@
+
+.header-title, 
+.nav-item, 
+.header-subtitle, 
+.form-title, 
+.form-button,
+.form-label,
+.form-deposit-label,
+.form-withdraw-label,
+.form-account-label {
+    color: navy;
+    text-shadow: 2px 2px 5px;
+
+}
+
+
+.header-title {
+    font-size: 50px;
+}
+
+.header-subtitle {
+    font-size: 25px;
+}
+
+.nav-item {
+    font-size: 20px;
+    @include white-border; 
+    border-radius: 25px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: lightgreen;
+    box-shadow: 2px 2px 5px ;
+    
+
+}
+
+.nav-item:hover {
+    transition: .5s ease-in-out;
+    transform: scale(1.2);
+}
+
+ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.nav-item a {
+    text-decoration: none;
+}

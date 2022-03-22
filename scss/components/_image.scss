@@ -1,0 +1,14 @@
+.logo {
+    // width: 75%;
+    margin-top:75px;
+    width: 90%;
+    animation: rotation 5s linear infinite;
+
+    @keyframes rotation {
+        0% {
+            transform: rotate(360deg);
+        }
+
+    }
+
+}

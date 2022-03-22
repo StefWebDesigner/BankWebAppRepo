@@ -1,0 +1,265 @@
+.header-title,
+.nav-item,
+.header-subtitle,
+.form-title,
+.form-button,
+.form-label,
+.form-deposit-label,
+.form-withdraw-label,
+.form-account-label {
+  color: navy;
+  text-shadow: 2px 2px 5px;
+}
+
+.header-title {
+  font-size: 50px;
+}
+
+.header-subtitle {
+  font-size: 25px;
+}
+
+.nav-item {
+  font-size: 20px;
+  border: white outset 2px;
+  border-radius: 25px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: lightgreen;
+  -webkit-box-shadow: 2px 2px 5px;
+          box-shadow: 2px 2px 5px;
+}
+
+.nav-item:hover {
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+ul {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+}
+
+.form-container,
+.form-info-section-container,
+.button-container,
+.form-function-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-title,
+.form-label,
+.form-button,
+.form-deposit-label,
+.form-withdraw-label,
+.form-account-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.button-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-info-section-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.form-function-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+input {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 25px;
+  -webkit-box-shadow: 2px 2px 5px;
+          box-shadow: 2px 2px 5px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 17px;
+  text-align: center;
+}
+
+input:-ms-input-placeholder {
+  font-size: 17px;
+  text-align: center;
+}
+
+input::-ms-input-placeholder {
+  font-size: 17px;
+  text-align: center;
+}
+
+input::placeholder {
+  font-size: 17px;
+  text-align: center;
+}
+
+input:hover {
+  -webkit-box-shadow: 2px 2px 5px;
+          box-shadow: 2px 2px 5px;
+  color: purple;
+  background-color: lightcyan;
+}
+
+input:focus {
+  -webkit-box-shadow: 2px 2px 5px;
+          box-shadow: 2px 2px 5px;
+  color: purple;
+  background-color: lightcyan;
+}
+
+.form-deposit-label,
+.form-withdraw-label,
+.form-account-label {
+  font-size: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-label {
+  font-size: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.form-button {
+  width: 50%;
+  margin-top: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 25px;
+  border: white outset 2px;
+  font-size: 20px;
+  -webkit-box-shadow: 2px 2px 5px;
+          box-shadow: 2px 2px 5px;
+}
+
+.form-button:hover {
+  -webkit-transition: .5s ease-in-out,.5s ease-out;
+  transition: .5s ease-in-out,.5s ease-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 2px 2px 5px;
+          box-shadow: 2px 2px 5px;
+  color: purple;
+}
+
+.logo {
+  margin-top: 75px;
+  width: 90%;
+  -webkit-animation: rotation 5s linear infinite;
+          animation: rotation 5s linear infinite;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.header-container, .nav-container, .main-container, .logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-title, .nav-item, .logo, .header-subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-title, .nav-item, .header-subtitle {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */
